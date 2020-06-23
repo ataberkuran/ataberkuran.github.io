@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INDEX on Ataberk Uran</title>
+    <link>/works/</link>
+    <description>Recent content in INDEX on Ataberk Uran</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jun 2020 23:10:34 +0300</lastBuildDate>
+    
+	<atom:link href="/works/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Duel it Yourself</title>
+      <link>/works/works/duelityourself/</link>
+      <pubDate>Fri, 12 Jun 2020 02:12:20 +0300</pubDate>
+      
+      <guid>/works/works/duelityourself/</guid>
+      <description>Game made for the Global Game Jam 2020. It is a two-player westen duel in space. Rebuild your weapon quickly, aim and fire. Be careful about the gravity, and if you miss, you have to repair your gun all over again. First player to hit the other player 3 times wins.
+I have worked with a group throughout the Global Game Jam 2020. After some time, we decided to move this game into VR, and made the prototype for it in Unreal Engine 4.</description>
+    </item>
+    
+    <item>
+      <title>Corrupted</title>
+      <link>/works/works/corrupted/</link>
+      <pubDate>Wed, 10 Jun 2020 21:22:27 +0300</pubDate>
+      
+      <guid>/works/works/corrupted/</guid>
+      <description>Corrupted is the Solo Game Development project I worked on my last semester in DePaul University made in Unreal Engine 4. It is a H.P. Lovecraft inspired universe that is about the world that is corrupted and you as the adventurer trying to figure out the source of the corruption happening in the world. Finally gets ahead of the corruption and pinpoints where the next corruption is going to manifest. Adventurer heads towards that town.</description>
+    </item>
+    
+    <item>
+      <title>HUoA</title>
+      <link>/works/works/unicorns/</link>
+      <pubDate>Wed, 10 Jun 2020 21:22:27 +0300</pubDate>
+      
+      <guid>/works/works/unicorns/</guid>
+      <description>The Hypermasculine Unicorns of Anarchy Game made for Indies vs PewDiePie Game Jam in 2014. In the game you are playing with Slick the Unicorn. All the unicorns have been kidnaped by the evil church and the main character Slick is trying to save his friends from them. Slick teams up with the badass motorcycle gang that can harness the power from the magical unicorns and become so much more powerful.</description>
+    </item>
+    
+    <item>
+      <title>Shadow That Pervades</title>
+      <link>/works/works/shadowthatpervades/</link>
+      <pubDate>Wed, 10 Jun 2020 21:22:27 +0300</pubDate>
+      
+      <guid>/works/works/shadowthatpervades/</guid>
+      <description>Concept and Layout Our tasks specifically for this quarter was to completely overhaul and redesign a new more compact city space. At the beginning of the quarter,weI thought it was important to establish some idea of deadlines for where we as a team would want to be throughout the quarter. It also helped because we wanted to make sure the ideas for the new space were in scope as it appeared last quarter the city level was a bit too large to allow for an immersive experience.</description>
+    </item>
+    
+  </channel>
+</rss>
