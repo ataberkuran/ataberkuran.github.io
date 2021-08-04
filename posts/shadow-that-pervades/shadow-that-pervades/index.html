@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shadow That Pervades</title>
+    
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/css/layouts/main.css"/>
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/navigators/navbar.css"/>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/images/site/favicon_hu4bc1f167b06f2b9b846b892d98a5d561_791477_42x0_resize_box_2.png" />
+
+
+<link rel="stylesheet" href="/css/style.css"/>
+
+    
+<meta name="description" content="Adding analytics and disquss comment in hugo" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
+/>
+<link rel="stylesheet" href="/css/layouts/single.css"/>
+<link rel="stylesheet" href="/css/navigators/sidebar.css">
+
+
+    
+    
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXXXXX-X', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
+  </head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/">
+      <img src="/images/site/main-logo_hubc5fa5074fab933b91912b4052d6629c_43880_42x0_resize_box_2.png">Ataberk URAN</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/images/site/main-logo_hubc5fa5074fab933b91912b4052d6629c_43880_42x0_resize_box_2.png" class="d-none" id="main-logo">
+  <img src="/images/site/inverted-logo_hubc5fa5074fab933b91912b4052d6629c_43880_42x0_resize_box_2.png" class="d-none" id="inverted-logo">
+</nav>
+
+
+
+      
+      
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/duel-it-yourself/">Duel It Yourself</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/duel-it-yourself/duel-it-yourself/">Duel It Yourself</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/unicorns/">Hypermasculine Unicorns of Anarchy</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/unicorns/unicorns/">Hypermasculine Unicorns of Anarchy</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li>
+      <i class="fas fa-minus-circle"></i><a class="active" href="/posts/shadow-that-pervades/">Shadow That Pervades</a>
+      
+      <ul class="active">
+        
+  
+  
+  
+  
+    
+    
+  
+  
+    
+    <li><a class="active" href="/posts/shadow-that-pervades/shadow-that-pervades/">Shadow That Pervades</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+  
+  
+  
+  
+  
+    
+    <li>
+      <i class="fas fa-plus-circle"></i><a class="" href="/posts/shoot-house/">Shoot House</a>
+      
+      <ul class="">
+        
+  
+  
+  
+  
+  
+    
+    <li><a class="" href="/posts/shoot-house/shoot-house/">Shoot House</a></li>
+  
+
+
+      </ul>
+    </li>
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content">
+    <div class="container p-0 read-area">
+      
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/images/default-hero.jpg);'>
+      </div>
+
+      
+      <div class="page-content">
+        <div class="author-profile ml-auto align-self-lg-center">
+          <img class="rounded-circle" src='/images/author/avatar.png'/>
+          <h5 class="author-name">Ataberk Uran</h5>
+          <p>June 8, 2020</p>
+        </div>
+
+        <div class="title">
+          <h1>Shadow That Pervades</h1>
+        </div>
+
+        <div class="post-content" id="post-content">
+          <h3 id="depaul-originals-game-studioogscdmdepauledu"><em><strong><a href="ogs.cdm.depaul.edu">DePaul Originals Game Studio</a></strong></em></h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/EgJIbxXLtkc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><img src="../stp_gif.gif" alt="Final"></p>
+<p>Our tasks specifically for this quarter was to completely overhaul and redesign a new more compact city space. At the beginning of the quarter, well thought it was important to establish some idea of deadlines for where we as a team would want to be throughout the quarter. It also helped because we wanted to make sure the ideas for the new space were in scope as it appeared last quarter the city level was a bit too large to allow for an immersive experience. With my primary focus in environment art and Ataberks primary focus in Level Design, it was important to establish what would be an interesting, immersive, familiar, aesthetically pleasing space to play in. What were we trying to convey? What was the emotional tone? What were the main points of interest that we wanted to see focalized in the space? In the beginning few weeks, we looked at references from our own city Chicago and what intriguing or memorable areas would be visually appealing to see in a game space.</p>
+<h4 id="concept-and-layout">CONCEPT AND LAYOUT</h4>
+<p><img src="../stp1.png" alt="Initial Concept"></p>
+<p>Something that was important for our space was to be able to tell stories visually and have them be believable. Each small area can be a narrative beat inside the level that has potential to tell or hint at a bigger picture. In this space the feeling we wanted to capture was loneliness and vulnerability. Chaos is all around Rose and she is still trying to grasp what is happening in the world around her.</p>
+<p><img src="../stp2.png" alt="First Blockout"></p>
+<h4 id="lower-wacker-underground-street">LOWER WACKER UNDERGROUND STREET</h4>
+<p>The previous level before the city is the sewer level with this gritty, grunge filled underground space, we had to figure out how we could transition smoothly from there into this more open city space that we were planning. The first area of importance then was “Lower Wacker Drive”.Set as the beginning of our space, our underground street area is meant to follow up on the previous area while also introducing the player to a different tone and feel. We wanted this to be a dimly lit eerie area, and we took a lot of inspiration from the halogen warm white street lights. These are scattered throughout Chicago and we believed that by intensifying the light to be a bit more warmer in this already darker place it would mimic a sketchy dangerous late-night lower wacker drive scene.</p>
+<p><img src="../stp3.png" alt="First Blockout"></p>
+<p>The environment is set out to have these straightaway strips scattered with abandoned cars. From an environment perspective, we tried to portray the fallout of this society by its remains. You have these vehicles twisted, turned, flipped over, and crashed to help support this. We also wanted darker grunge-like textures to aesthetically translate that eerie vulnerability for the player. We also populated the space with a number of objects that would be found in the actual lower wacker drive like garbage bags and dumpster, piles of junk built up by the sewer drains, concrete support pillars, rusty dripping pipes, old halogen light fixtures, caution road blocks blocking Roses path, ladders, pallets, boxes, and other debris littering the underground street. When combined together, placed and textured appropriately they help to bring more realism and believability to the playspace.</p>
+<p><img src="../stp4.png" alt="First Blockout"></p>
+<p>As you reach the end of the underground street you can start to see the space open up some as the space widens and you encounter the ramp leading up to the main street and our next area of interest, the Alleyway. Walking up the ramp we again have this major semi-truck crashing into these caution poles at the top of the ramp. This adds some visual interest but more importantly helps the player to question what happened in the space as they continue to experience these strange encounters. What we wanted to portray as you walk from the base of the street ramp to the entrance of the hallway is the change in lighting.</p>
+<p><img src="../stp5.png" alt="First Blockout"></p>
+<p>The setting for our scene is at the peak of dawn where the warm rays of sunlight are just breaking atop a few of the city buildings. Here you can see the use of volumetric lighting and fog as it scatters the sky with rays of light shooting through the rooftop of the alley. An interesting point here though and moving forward from area to area is we wanted the later parts of our level to have sunlight while the beginning areas were still in this nighttime setting.</p>
+<h4 id="alleyway">ALLEYWAY</h4>
+<p><img src="../stp6.png" alt="First Blockout"></p>
+<p>As you reach the top of the ramp you see a faint glimmer of green light rays to the right of you. As you look up a hotel sign on the side of the building is also pointing right. Both the lighting peeking out from here as well as the hotel signs arrow help to visually communicate to the player an area of interest that they should navigate to. As you turn to the right you encounter a packed, construction filled alleyway. At the end of the Alleyway you see the rays of sunlight hit the top of a massive parking complex (we also have a camera volume to lock Rose’s eyes on this focal point). We have now set into the players mind that this is a point of interest that they want to reach, but as they look down they see a number of obstacles along the alleyway that they must overcome in order to get there. We were inspired by the idea of an alleyway from downtown Chicago. In downtown Chicago you have these interesting thin side streets that act like alleyways where truck drivers and such go down to deliver shipments of goods to local businesses. We wanted to mimic something similar in our city level. Something important that we wanted to keep in mind is that we have a dog with a variety of different parkour mechanics. This is the first taste of verticality in the city level in which you have to use these mechanics to maneuver and overcome obstacles to navigate through the alleyway.</p>
+<p><img src="../stp7.png" alt="First Blockout"></p>
+<p>We wanted to indicate objects of importance based on their color. Giving them more value and an increase in saturation helped us to visually break them up from the rest of the objects. We were inspired by this from games such as mirrors edge and the Uncharted series where the objects that you interact with for verticality often draw your attention due to their color values. We used the color red to indicate where you are going is the right path overall in the level.In the space right now, the alleyway puzzle/parkour starts with the red ladder or the red truck.</p>
+<p><img src="../stp8.png" alt="First Blockout">
+<img src="../stp9.png" alt="First Blockout"></p>
+<p>Players can travers the alleyway a couple different ways. We realized as gamers ourselves that we like to have options when we play to break up from the linear point A to point B flow. We wanted players to have an option in this space to pick and choose where they want to discover and how they want to reach to the ending of the alleyway. The alleyway consists of different interior and exterior spaces, such as: a loading dock, an office, and a ventilation system. Players can choose between parkouring from the air conditioners from that to the fire escape to avoid the hazardous spaces that Rose cannot reach initially, or they can choose to do the ventilation system and find their path in a first person mini puzzle/maze inside of the building.</p>
+<p><img src="../stp10.png" alt="First Blockout"></p>
+<h4 id="parking-complex">PARKING COMPLEX</h4>
+<p>The parking garage is this unique space where each of us as designers had an opportunity to show or express our ideas into the playable space on a floor to floor basis. We went in with guidance from Allen that the parking complex should be a “fun space” “a space where it’s fun to be a bad dog”. Knocking objects over, breaking stuff, and causing pandemonium as you frantically run around interacting with different objects. With that in mind we also believe that this space could be a super crucial story point and have a lot to tell about the past world that Rose is left venturing in. As leads we conveyed that this is a world left behind, sudden disappearances, the collapse of society as major cities now becoming a hub for survivors. While there are floors that you can run around and parkour in to have fun in the parking complex, we wanted to to act as this fallout citadel. People from around the city and rural areas gather in this space to try and form a community.</p>
+<p><img src="../stp11.png" alt="First Blockout"></p>
+<h5 id="floor-1">FLOOR 1</h5>
+<p>Originally the first floor was not going to be accessible as it was too dark and we wanted to keep verticality moving from the Alleyway into the Parking Complex. However we looked back on it later in the quarter and realized that not many spaces had taken advantage of roses “senses” mechanics. With this dark light space it was an opportunity to challenge the player by rendering their normal views useless in pitch black and forcing them to try different senses that could help them navigate through the space. Roses “pee sense” or marked territory indicator was a great way to help players navigate through a space they visually couldn’t see. The set up of the first floor is a maze of sharp corners, turns, and cubby holes that rose must crawl through to navigate through the maze. The trails are a good way to not necessarily fully expose the area, but give a general idea of where point to point is.</p>
+<p><img src="../stp12.png" alt="First Blockout"></p>
+<h5 id="floor-2">FLOOR 2</h5>
+<p>We assigned that the second floor is going to be a temporary living area for the people who fled from the suburbs into the city for shelter. We wanted to establish that feeling with temporary living objects such as tents, boxes, fires in barrel clothing for people and lamps around the space. About the layout of floor 2, we wanted players to explore the area we created, observe around the space as much as they can and figure out what happened here in this space. Therefore we made it so it is a space that you should navigate around in order to go upstairs. We wanted to block the going straight up with objects that made sense in this scenario such as wooden planks to burn, the tents and such. This gave us a unique layout we can now use and the player is obliged to walk around and discover.</p>
+<p><img src="../stp13.png" alt="First Blockout">
+<img src="../stp14.png" alt="First Blockout"></p>
+<h5 id="floor-3">FLOOR 3</h5>
+<p>In every community or citadel there is a market where people can exchange goods to help them on their journeys or survive another day. We wanted to show that on the third floor of the parking complex. Here is where survivors can trade and exchange valuable goods and information to aid them. We often asked ourselves “If we were in their situation what would be something beneficial to survival?” We tasked our designers to layout the space to keep a theme of “one man’s junk is another man’s treasure”. It was also important to have a more natural layout to the space as we expressed to the designers. In those times people were not worried about being neat and tidy about the way they had their shops or goods setup, some could have even been selling right out of their tents or homes. It was important that it was laid out as such and wasn’t structured to be lined up perfectly.</p>
+<p><img src="../stp15.png" alt="First Blockout">
+<img src="../stp16.png" alt="First Blockout"></p>
+<h5 id="floor-4">FLOOR 4</h5>
+<p>Fourth floor is where they put the unwanted things. Once people started living here, the cars, unused boxes, anything they did not need, they stockpiled it on the fourth floor. We designated this space to be the place to be a bad dog and have fun. This is the area where you can knock down boxes, tear up garbage bags, jump on cars, and overall a space that you can do the stuff you shouldn’t do in the first place but that’s where the fun comes from.</p>
+<p><img src="../stp17.png" alt="First Blockout">
+<img src="../stp18.png" alt="First Blockout"></p>
+<h5 id="floor-5">FLOOR 5</h5>
+<p>Leaving the fifth floor empty was an intentional design decision. On other floors there are lots of things happening story and structure wise. With leaving the top floor empty, we wanted to give the player a room to breathe and relax. With the beautiful lights coming to the rooftop of this building, we wanted the player to see the journey that they had overcome as they looked atop the parking complex and see all the obstacles they had overcome.Their journey in this chaos came to an end and they succeeded to find inner peace. We were heavily influenced by the eagles peak in Assassin’s creed games where the player sits atop the highest point in the level and sees everything around them. We thought it would be really cool to see Rose sitting atop the building as she conquers the city.</p>
+<p><img src="../stp19.png" alt="First Blockout"></p>
+
+        </div>
+
+        
+        
+          <div class="btn-improve-page">
+              <a href="https://ataberkuran.github.io/edit/main/content/posts%5cshadow-that-pervades%5cshadow-that-pervades.md">
+                <i class="fas fa-code-branch"></i>
+                Improve this page
+              </a>
+          </div>
+        
+
+        
+      <hr />
+        <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+    
+      
+      <div class="col-md-6 previous-article">
+        <a href="/posts/unicorns/unicorns/" class="btn btn-outline-info">
+          <span><i class="fas fa-chevron-circle-left"></i> Prev</span>
+          <br />
+          <span>Hypermasculine Unicorns of Anarchy</span>
+        </a>
+      </div>
+      
+    
+    
+      
+        
+        
+          
+              
+          
+        
+        <div class="col-md-6 next-article">
+          <a href="/posts/shoot-house/shoot-house/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>Shoot House</span>
+          </a>
+        </div>
+      
+    
+  
+
+  
+
+</div>
+
+      <hr />
+      
+      
+          <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function () {
+    
+    
+    if (window.location.hostname == "localhost") return;
+
+    var dsq = document.createElement("script");
+    dsq.type = "text/javascript";
+    dsq.async = true;
+    var disqus_shortname = "does-not-exist";
+    dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+    (
+      document.getElementsByTagName("head")[0] ||
+      document.getElementsByTagName("body")[0]
+    ).appendChild(dsq);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+<a href="https://disqus.com/" class="dsq-brlink"
+  >comments powered by <span class="logo-disqus">Disqus</span></a
+>
+
+      
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+      
+      
+  <section class="toc-section" id="toc-section">
+    
+    <div class="toc-holder">
+      <h5 class="text-center pl-3">Table of Contents</h5>
+      <hr>
+      <div class="toc">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#depaul-originals-game-studioogscdmdepauledu"><em><strong><a href="ogs.cdm.depaul.edu">DePaul Originals Game Studio</a></strong></em></a>
+          <ul>
+            <li><a href="#concept-and-layout">CONCEPT AND LAYOUT</a></li>
+            <li><a href="#lower-wacker-underground-street">LOWER WACKER UNDERGROUND STREET</a></li>
+            <li><a href="#alleyway">ALLEYWAY</a></li>
+            <li><a href="#parking-complex">PARKING COMPLEX</a>
+              <ul>
+                <li><a href="#floor-1">FLOOR 1</a></li>
+                <li><a href="#floor-2">FLOOR 2</a></li>
+                <li><a href="#floor-3">FLOOR 3</a></li>
+                <li><a href="#floor-4">FLOOR 4</a></li>
+                <li><a href="#floor-5">FLOOR 5</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </div>
+    
+  </section>
+
+    </div>
+
+    
+
+  
+
+
+
+
+  
+
+
+
+
+  
+  
+    
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+<footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#about">About</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#projects">Projects</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#experiences">Experiences</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#education">Education</a>
+              </li>
+            
+            
+              
+              
+                
+              
+              <li class="nav-item">
+                <a class="smooth-scroll" href="#recent-posts">Recent Posts</a>
+              </li>
+            
+        </ul>
+        
+
+      </div>
+      
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact me:</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>ataberkuran@gmail.com</span></li>
+          
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+  </hr>
+ 
+  </div>
+</footer>
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+<script src="/js/navbar.js"></script>
+<script src="/js/main.js"></script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
+
+  </body>
+</html>

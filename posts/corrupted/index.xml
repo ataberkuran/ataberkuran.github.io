@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corrupted on Ataberk URAN</title>
+    <link>/posts/corrupted/</link>
+    <description>Recent content in Corrupted on Ataberk URAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jun 2020 06:00:23 +0600</lastBuildDate><atom:link href="/posts/corrupted/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Duel It Yourself</title>
+      <link>/posts/corrupted/corrupted/</link>
+      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
+      
+      <guid>/posts/corrupted/corrupted/</guid>
+      <description>DUEL IT YOURSELF Game made for the Global Game Jam 2020. It is a two-player westen duel in space. Rebuild your weapon quickly, aim and fire. Be careful about the gravity, and if you miss, you have to repair your gun all over again. First player to hit the other player 3 times wins.
+I have worked with a group throughout the Global Game Jam 2020. During the Global Game Jam, I came up with the concept of the game according to the theme which was &amp;ldquo;Repair&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
